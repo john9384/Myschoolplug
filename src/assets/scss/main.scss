@@ -1,0 +1,16 @@
+@import "./abstracts/variables";
+@import "./base/base";
+@import "./base/animation";
+@import "./base/typo";
+
+@import "./components/btn";
+@import "./components/nav";
+@import "./components/cards";
+@import "./components/pagination";
+
+@import "./layouts/header";
+@import "./layouts/container";
+@import "./layouts/sidebar";
+@import "./layouts/footer";
+
+@import "./pages/home";

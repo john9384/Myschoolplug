@@ -1,0 +1,28 @@
+.pagination {
+  align-self: flex-end;
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__item {
+    margin: 1rem;
+    height: 5rem;
+    width: 5rem;
+    border: 0.5px solid $color-grey-lighter;
+    padding: 2rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    &:hover {
+      background-color: $color-sec;
+      color: white;
+    }
+  }
+  &--current {
+    background-color: $color-sec;
+    color: white;
+  }
+}

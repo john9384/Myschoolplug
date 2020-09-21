@@ -1,0 +1,26 @@
+{
+  "name": "archihomes",
+  "version": "1.0.0",
+  "description": "A home architectural design  website template designed with grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "live-server --browser=firefox",
+    "watch:scss": "node-sass src/assets/scss/main.scss src/css/style.css -w",
+    "start": "npm-run-all --parallel server watch:scss",
+    "compile:scss": "node-sass src/assets/scss/main.scss src/css/style.comp.css",
+    "compress:css": "node-sass src/css/style.css src/css/style.comp.css --output-style compressed",
+    "build:css": "npm-run-all compile:scss  prefix:css compress:css"
+  },
+  "browserlist": [
+    "last 10 versions"
+  ],
+  "author": "Damilola",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^7.1.1"
+  }
+}

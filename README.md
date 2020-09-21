@@ -1,2 +1,2 @@
-# Myschoolplug
-Website template for website of the same name
+# ArchiHomes
+A website page designed with HTML and CSS Grid 

@@ -1,0 +1,21 @@
+.container {
+  max-width: 114rem;
+  margin: 5rem auto;
+  box-shadow: 0 0 20px 1px rgba(black, 0.1);
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  @media screen and (max-width: $res-medium) {
+    margin: 0 0;
+  }
+}
+
+.main {
+  width: 70%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  @media screen and (max-width: $res-small) {
+    width: 100%;
+  }
+}

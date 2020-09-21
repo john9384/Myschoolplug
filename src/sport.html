@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>MySchoolPlug</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__title">
+          <span class="header__title--head">MySchoolPlug</span>
+          <h3 class="header__title--note">
+            Stay plugged to daily school information
+          </h3>
+        </div>
+      </header>
+      <nav class="nav">
+        <!-- Home Music News Jamb Waec Neco	Sport Login  -->
+        <input type="checkbox" class="nav__mobile--checkbox" id="mob-check" />
+        <label for="mob-check" class="nav__mobile--button">
+          <span class="nav__mobile--icon">&nbsp;</span>
+        </label>
+        <ul class="nav__list">
+          <div class="nav__main">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="music.html" class="nav__link">music</a>
+            </li>
+            <li class="nav__item">
+              <a href="news.html" class="nav__link">news</a>
+            </li>
+            <li class="dropdown">
+              <input type="checkbox" id="checkbox" class="dropdown__checkbox" />
+              <label for="checkbox" class="dropdown__label">School</label>
+              <span class="dropdown__icon">^</span>
+              <ul class="dropdown__list">
+                <li class="nav__item">
+                  <a href="jamb.html" class="nav__link">jamb</a>
+                </li>
+                <li class="nav__item">
+                  <a href="waec.html" class="nav__link">waec</a>
+                </li>
+                <li class="nav__item">
+                  <a href="neco.html" class="nav__link">neco</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav__item nav__item--selected">
+              <a href="sport.html" class="nav__link">sport</a>
+            </li>
+          </div>
+          <li class="nav__item nav__item--login">
+            <a href="login.html" class="nav__link">Login</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="main">
+        <div class="news-card">
+          <div class="news-card__img-div">
+            <img src="./assets/img/images.jpeg" class="news-card__img" />
+          </div>
+          <div class="news-card__content">
+            <h2 class="news-card__head">The news head</h2>
+            <p class="news-card__brief">
+              lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aperiam porro vel ullam, unde facere ea consequatur maxime illum
+              nostrum obcaecati provident assumenda nisi est suscipit quaerat
+              ipsum eveniet libero eum!
+            </p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-card__img-div">
+            <img src="./assets/img/images.jpeg" class="news-card__img" />
+          </div>
+          <div class="news-card__content">
+            <h2 class="news-card__head">The news head</h2>
+            <p class="news-card__brief">
+              lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aperiam porro vel ullam, unde facere ea consequatur maxime illum
+              nostrum obcaecati provident assumenda nisi est suscipit quaerat
+              ipsum eveniet libero eum!
+            </p>
+          </div>
+        </div>
+        <div class="news-card">
+          <div class="news-card__img-div">
+            <img src="./assets/img/images.jpeg" class="news-card__img" />
+          </div>
+          <div class="news-card__content">
+            <h2 class="news-card__head">The news head</h2>
+            <p class="news-card__brief">
+              lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Aperiam porro vel ullam, unde facere ea consequatur maxime illum
+              nostrum obcaecati provident assumenda nisi est suscipit quaerat
+              ipsum eveniet libero eum!
+            </p>
+          </div>
+        </div>
+        <div class="pagination">
+          <span class="pagination__item">1</span>
+          <span class="pagination__item pagination--current">2</span>
+          <span class="pagination__item">3</span>
+          <span class="pagination__item">4</span>
+          <span class="pagination__item">5</span>
+          <span>...</span>
+        </div>
+      </main>
+      <sidebar class="sidebar">
+        <div class="sidebar-card">
+          <h2 class="sidebar-card__head">Recent Post</h2>
+          <ul class="sidebar-card__list">
+            <li class="sidebar-card__items">A test</li>
+            <li class="sidebar-card__items">A test</li>
+            <li class="sidebar-card__items">A test</li>
+            <li class="sidebar-card__items">A test</li>
+            <li class="sidebar-card__items">A test</li>
+          </ul>
+        </div>
+      </sidebar>
+      <footer class="footer"><span>copyrights blah blah blah</span></footer>
+    </div>
+
+    <!-- <svg class="home__like">
+            <use xlink:href="./assets/img/sprite.svg#icon-heart-full"></use>
+          </svg> -->
+  </body>
+</html>
