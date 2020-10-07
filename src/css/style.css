@@ -265,6 +265,22 @@ body {
   font-size: 2rem;
   border-bottom: 1px solid #f4f2f2; }
 
+.detailed {
+  width: 100%; }
+  .detailed__head {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 0;
+    margin-bottom: 1rem; }
+  .detailed__img-div {
+    width: 100%; }
+  .detailed__img {
+    width: 100%; }
+  .detailed__content {
+    margin-top: 2rem;
+    font-size: 1.6rem; }
+
 .pagination {
   align-self: flex-end;
   margin-top: 5rem;
@@ -358,3 +374,38 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 2rem; }
+
+.form {
+  width: 100%; }
+  .form__head {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: none; }
+  .form__field {
+    width: 50%;
+    margin: 2rem 0; }
+    @media screen and (max-width: 37.5em) {
+      .form__field {
+        width: 100%; } }
+  .form__input {
+    width: 100%;
+    padding: 1rem 2rem;
+    height: 3.5rem;
+    border: 1px solid grey; }
+    .form__input:focus {
+      box-shadow: 0 0 1px 1px grey; }
+    .form__input:invalid {
+      border: 1px solid #c20101; }
+  .form__submit {
+    padding: 1rem 3rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 700;
+    text-transform: uppercase; }
+  .form__link {
+    font-size: 1.5rem;
+    color: grey;
+    text-decoration: none;
+    margin-left: 2rem; }
